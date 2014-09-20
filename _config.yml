@@ -1,9 +1,31 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
-url: "http://yourdomain.com"
+title: Code Hospital
+email: maysam@codehospital.com
+description: "Your Idea is Your Baby, we help you deliver a Healthy Product."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/freemaysam
+  - title: facebook
+    url: http://facebook.com/maysamtorabi
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/348701/maysam
+  - title: bitbucket
+    url: http://bitbucket.org/maysam
+  - title: github
+    url: http://github.com/codehospital
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 96 Celic Street
+  - line: Tehran, Iran
 
 # Build settings
 markdown: kramdown
