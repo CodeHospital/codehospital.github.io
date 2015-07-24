@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 7
+date: 2014-07-14
+img: nomap.png
+alt: image-alt
+project-date: April 2014
+client: Code Hospital
+category: mobile development
+description: Usually when I wanna go out, whether in the city or as a tourist outside my confort zone, I plan my route using google map or other tools, but when I am on the street, either there is no coverage or no internet available at all. Even when I try to have the google map open with the right map on, or the webpages open, it's not easy to navigate or even worst, suddenly the page closes or a touch on the map, moves it around and then nothing is usable. That makes me lost in uncharted teritory and can seldom ruin my trip. It can be useful if I could put markers on a map, and then my phone can guide me using the gps whether I am close to my destination or not. I don't need it to copy a map from google map or any other service on my phone as it might not be the right expectation and can make it a bit heavy, but a gps point in space and maybe an online distance calculator telling if I am on the right path or not can be very helpful. Another problem is with the buses in a strange city. I pick the right bus, I find it, I'm on my way to my destination, but I have no clue what is the right stop and if this is the right one, so if my mobile can alarm me if I'm getting close to it, then I can be more alert and maybe ask someone for help, at the right location. I don't want lots of bells and wistles, so it would be good to be able to fill in a itinetary so I get helped one step at a time, and maybe I decide to skip one and move to the next. Or step back in case I left something at the previous location. As far as the metadata is concerned, it would be good to get as much info as possible from google and such.
+
+---
