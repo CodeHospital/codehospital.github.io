@@ -3,6 +3,12 @@ title: Code Hospital
 email: maysam@codehospital.com
 description: maysam torabi
 moto: Your Idea is Your Baby, we help you deliver a Healthy Product.
+url: http://www.codehospital.com
+keywords: "your keywords, separated by commas"
+skills: "Web Developer - Backend Developer - Database Designer"
+meta_author: Torabi, Maysam
+
+# contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -22,6 +28,10 @@ social:
     url: http://bitbucket.org/maysam
   - title: github
     url: http://github.com/codehospital
+  - title: linkedin
+    url: https://www.linkedin.com/in/maysam/
+  - title: behance
+    url: https://www.freelancer.com/u/maysam
 
 # Postal address (add as many lines as necessary)
 address:
