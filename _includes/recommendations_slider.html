@@ -1,0 +1,36 @@
+
+    <!-- Portfolio Grid Section -->
+    <section id="linkedin">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Linkedin Recommendations</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row slick">
+                {% for image in site.static_files %}
+                    {% if image.path contains 'img/linkedin' %}
+                        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <script>
+    // $(document).ready(function(){
+    document.addEventListener("DOMContentLoaded", function(event) { 
+        $('.slick').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            //   adaptiveHeight: true,
+            //   centerMode: true,
+            //   centerPadding: '60px',
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    });
+                    
+    </script>
