@@ -34,9 +34,8 @@ social:
     url: https://www.freelancer.com/u/maysam
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 96 Celic Street
-  - line: Tehran, Iran
+address:  
+  - line: Basel, Switzerland
 
 # Build settings
 markdown: kramdown
