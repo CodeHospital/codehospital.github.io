@@ -17,10 +17,11 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            data = $form.serialize();
             $.ajax({
                 url: '//formspree.io/f/kherad@gmail.com',
                 method: 'POST',
-                data: $form.serialize(),
+                data: data,
                 dataType: 'json',
                 data1: {
                     name: name,
@@ -52,6 +53,15 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
+            })
+            
+            data = new FormData(event.target);
+            fetch('//formspree.io/f/kherad@gmail.com', {
+                method: 'POST',
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
             })
         },
         filter: function() {
