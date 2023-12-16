@@ -19,18 +19,18 @@
     </section>
     <script>
     // $(document).ready(function(){
-    document.addEventListener("DOMContentLoaded", function(event) { 
-        $('.slick').slick({
+    document.addEventListener("DOMContentLoaded", function(event) {
+        $('.slick').not('.slick-initialized').slick({
             dots: true,
             infinite: true,
             speed: 300,
             slidesToShow: 1,
-            //   adaptiveHeight: true,
-            //   centerMode: true,
-            //   centerPadding: '60px',
+            adaptiveHeight: true,
+            // centerMode: true,
+            // centerPadding: '60px',
             autoplay: true,
             autoplaySpeed: 2000,
         });
     });
-                    
+
     </script>

@@ -4,7 +4,7 @@ email: maysam@codehospital.com
 description: maysam torabi
 moto: Your Idea is Your Baby, we help you deliver a Healthy Product.
 url: http://www.codehospital.com
-keywords: "your keywords, separated by commas"
+keywords: "Ruby on Rails, Elixir Phoenix, React Typescript Developer"
 skills: "Web Developer - Backend Developer - Database Designer"
 meta_author: Torabi, Maysam
 
@@ -30,11 +30,11 @@ social:
     url: http://github.com/codehospital
   - title: linkedin
     url: https://www.linkedin.com/in/maysam/
-  - title: behance
+  - title: freelancer
     url: https://www.freelancer.com/u/maysam
 
 # Postal address (add as many lines as necessary)
-address:  
+address:
   - line: Basel, Switzerland
 
 # Build settings

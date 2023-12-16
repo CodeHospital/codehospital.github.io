@@ -18,8 +18,8 @@
         </div>
     </section>
     <script>
-    document.addEventListener("DOMContentLoaded", function(event) { 
-        $('.slick').slick({
+    document.addEventListener("DOMContentLoaded", function(event) {
+        $('.slick').not('.slick-initialized').slick({
             dots: true,
             infinite: true,
             speed: 300,
@@ -28,5 +28,5 @@
             autoplaySpeed: 1000,
         });
     });
-                    
+
     </script>
